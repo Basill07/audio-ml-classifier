@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset and generated files
+data/raw/ESC-50/
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
