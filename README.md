@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning-Based Audio Classification
 
 A beginner-friendly environmental sound classification project using the ESC-50 dataset, audio feature extraction with Librosa, and a Random Forest classifier.
@@ -88,3 +89,7 @@ notebooks/01_audio_exploration.ipynb
 ```
 
 Run the cells from top to bottom.
+=======
+# audio-ml-classifier
+A beginner- friendly machine learning project for classifying environmental sounds using audio feature extraction, MFCCs, Librosa, and a Random Forest classifier 
+>>>>>>> 7fe55fc3bfb4a501f07bff330effc9a14713fc05

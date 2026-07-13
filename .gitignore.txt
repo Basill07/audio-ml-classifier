@@ -1,0 +1,41 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# ESC-50 dataset
+data/raw/ESC-50/
+
+# Generated feature files
+data/processed/
+!data/processed/.gitkeep
+
+# Trained models
+models/*.joblib
+models/*.pkl
+!models/.gitkeep
+
+# Generated outputs
+outputs/
+*.log
+
+# VS Code and IDE settings
+.vscode/
+.idea/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Windows and macOS files
+Thumbs.db
+Desktop.ini
+.DS_Store
